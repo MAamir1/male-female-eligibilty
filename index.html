@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Check male female eligibilty</title>
+</head>
+<body>
+    
+
+    <script>
+          // male female eligiblity.
+
+
+          let gender = prompt("Enter Gender Male or Female");
+        let age = parseInt (prompt("Enter Age 16 Or 18"));
+        let eligible="";
+        if (gender == "female" && age == 16) {
+            eligible = "you are eligible"
+
+        } else if (gender == "male" && age == 18) {
+            eligible = "you are eligible"
+
+        } else {
+            eligible = ("not eligible")
+        }
+        console.log(eligible);
+    </script>
+</body>
+</html>
